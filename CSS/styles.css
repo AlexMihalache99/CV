@@ -1,0 +1,54 @@
+h1 {
+    margin: 0 auto;
+    color: white;
+    font-family: 'Qwitcher Grypen', sans-serif;
+    font-size: 16em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #607EAA;
+}
+
+.profile-pic {
+    height: 250px;
+    width: 15%;
+}
+
+.top-container{
+    background-color: #1C3879;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+}
+
+.bottom-container{
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.description{
+    color: white;
+}
