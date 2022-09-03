@@ -2,15 +2,26 @@ h1 {
     margin: 0 auto;
     color: white;
     font-family: 'Qwitcher Grypen', sans-serif;
-    font-size: 16em;
+    font-size: 10em;
 }
 
 h2 {
+    color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
+    color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted white 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 body {
@@ -25,6 +36,25 @@ body {
     width: 15%;
 }
 
+.skill-row {
+    width: 45%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
 .top-container{
     background-color: #1C3879;
     position: relative;
@@ -32,9 +62,12 @@ body {
 }
 
 .middle-container{
+    margin: 100px 0;
 }
 
 .bottom-container{
+    background-color: #1C3879;
+    padding: 50px 0 20px;
 }
 
 .top-cloud {
@@ -49,6 +82,51 @@ body {
     bottom: 300px;
 }
 
-.description{
-    color: white;
+.contact-message {
+    width: 40%;
+    margin: 40px auto;
 }
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #F9F5EB, #2980b9);
+    background-image: -moz-linear-gradient(top, #F9F5EB, #2980b9);
+    background-image: -ms-linear-gradient(top, #F9F5EB, #2980b9);
+    background-image: -o-linear-gradient(top, #F9F5EB, #2980b9);
+    background-image: linear-gradient(to bottom, #F9F5EB, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #1c3879;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: auto auto auto auto;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #EAE3D2, #F9F5EB);
+    background-image: -moz-linear-gradient(top, #EAE3D2, #F9F5EB);
+    background-image: -ms-linear-gradient(top, #EAE3D2, #F9F5EB);
+    background-image: -o-linear-gradient(top, #EAE3D2, #F9F5EB);
+    background-image: linear-gradient(to bottom, #EAE3D2, #F9F5EB);
+    text-decoration: none;
+  }
+
+  .footer-link {
+    color: white;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    color: #2980b9;
+  }
+
+  .footer-text {
+    color: white;
+    font-size: 1 rem;
+    padding: 20px 0;
+  }
